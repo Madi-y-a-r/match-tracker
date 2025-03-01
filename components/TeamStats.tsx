@@ -1,4 +1,4 @@
-// Компонент TeamStats.tsx
+
 "use client"
 
 interface TeamStatsProps {

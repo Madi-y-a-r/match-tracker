@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import localFont from 'next/font/local';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,20 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const tacticSans = localFont({
-  src: [
-    {
-      path: '../public/fonts/TacticSans-Reg.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/TacticSans-Bld.woff2',
-      weight: '700',
-      style: 'normal',
-    },
-  ],
-});
 
 export const metadata: Metadata = {
   title: "Match Tracker",

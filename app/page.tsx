@@ -2,11 +2,10 @@
 import { useEffect, useState } from 'react';
 import { ApiResponse, Match, MatchStatus } from '../types/match';
 import { Button } from '@/components/ui/button'
-import { ChevronDownIcon, RefreshCw } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import Image from 'next/image';
+
 import teamAvatar from '@/public/icon.png'
-import avatar from "@/public/avatar_global.png"
 import localFont from 'next/font/local';
 import { TeamInfo } from '@/components/TeamInfo';
 import { TeamStats } from '@/components/TeamStats';

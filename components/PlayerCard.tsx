@@ -1,4 +1,4 @@
-// Компонент PlayerCard.tsx
+
 "use client"
 import Image from 'next/image';
 import avatar from "@/public/avatar_global.png";
